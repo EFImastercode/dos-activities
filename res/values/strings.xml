@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Usuarios</string>
+    <string name="encabezado">Registro de usuarios</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="nac">Fecha de nacimiento</string>
+    <string name="tel">Teléfono</string>
+    <string name="correo">Email</string>
+    <string name="descr">Descripción</string>
+    <string name="btnSig">Siguiente"></string>
+    <string name="titulo2">Confirmar datos</string>
+    <string name="btnedtdatos">Editar Datos</string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>

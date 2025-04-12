@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="letraSize">25sp</dimen>
+    <dimen name="espacioSup">20dp</dimen>
+    <dimen name="anchomin">20dp</dimen>
+    <dimen name="altomin">20dp</dimen>
+    <dimen name="SizeAct2">15sp</dimen>
+</resources>

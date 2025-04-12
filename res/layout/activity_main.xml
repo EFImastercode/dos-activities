@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start|top"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/encabezado"
+            android:textSize="20sp"
+            android:layout_marginTop="20sp"
+             />
+
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:width="250sp"
+            android:gravity="start"
+            android:hint="@string/nombre"
+            android:importantForAutofill="no"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="14sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="10sp"
+            />
+
+        <EditText
+            android:id="@+id/edtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:width="250sp"
+            android:gravity="start"
+            android:hint="@string/nac"
+            android:importantForAutofill="no"
+            android:inputType="date"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="14sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="10sp"
+            />
+
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:width="250sp"
+            android:gravity="start"
+            android:hint="@string/tel"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="14sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="10sp"
+            />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:width="250sp"
+            android:gravity="start"
+            android:hint="@string/correo"
+            android:importantForAutofill="no"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="14sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="10sp"
+            />
+
+        <EditText
+            android:id="@+id/edtDescr"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:width="250sp"
+            android:gravity="start"
+            android:hint="@string/descr"
+            android:importantForAutofill="no"
+            android:inputType="textMultiLine"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            android:textSize="14sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginStart="10sp"
+            />
+
+        <Button
+            android:id="@+id/btnSiguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:text="@string/btnSig"
+            />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

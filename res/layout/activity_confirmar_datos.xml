@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start|top"
+    android:orientation="vertical"
+    android:background="@color/fondo"
+    tools:context=".ConfirmarDatos" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo2"
+        android:textSize="@dimen/letraSize"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/nombre"
+        android:width="250sp"
+        android:textSize="@dimen/SizeAct2"
+        android:gravity="start"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray"
+        android:layout_marginStart="10sp"
+        />
+
+    <TextView
+        android:id="@+id/tvNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/nac"
+        android:width="250sp"
+        android:textSize="@dimen/SizeAct2"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/espacioSup"
+        android:textColor="@color/black"
+        android:layout_marginStart="10sp"
+        />
+
+    <TextView
+        android:id="@+id/tvTel"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/tel"
+        android:width="250sp"
+        android:textSize="@dimen/SizeAct2"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/espacioSup"
+        android:textColor="@color/black"
+        android:layout_marginStart="10sp"
+        />
+
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/correo"
+        android:width="250sp"
+        android:textSize="@dimen/SizeAct2"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/espacioSup"
+        android:textColor="@color/black"
+        android:layout_marginStart="10sp"
+        />
+
+    <TextView
+        android:id="@+id/tvDescr"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/descr"
+        android:width="250sp"
+        android:textSize="@dimen/SizeAct2"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/espacioSup"
+        android:textColor="@color/black"
+        android:layout_marginStart="10sp"
+        />
+
+    <Button
+        android:id="@+id/btnEdatos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:text="@string/btnedtdatos" />
+
+
+</LinearLayout>
